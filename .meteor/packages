@@ -20,3 +20,4 @@ webpack:webpack
 webpack:react
 twbs:bootstrap@3.3.6
 react-meteor-data
+webpack:typescript

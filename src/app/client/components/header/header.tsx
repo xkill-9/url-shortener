@@ -1,6 +1,9 @@
-import React, {Component} from 'react';
+import * as React from 'react';
 
-class Header extends Component {
+interface HeaderProps {}
+interface HeaderState {}
+
+class Header extends React.Component<HeaderProps, HeaderState> {
   render(){
     return (
       <nav className="nav navbar-default">
